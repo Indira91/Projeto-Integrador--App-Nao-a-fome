@@ -66,7 +66,7 @@ class CadastroProdutosFragment : Fragment() {
 
         nomeProduto: String,
         imagemProduto: String,
-        descricaoProdutos: String,
+        descriçãoProdutos: String,
         valorProduto: String,
         quantidadeProduto: String
     )
@@ -74,16 +74,9 @@ class CadastroProdutosFragment : Fragment() {
 
         return !((nomeProduto == "" || nomeProduto.length < 3 || nomeProduto.length > 24) ||
                 (imagemProduto == "") ||
-<<<<<<< HEAD
-                (descricaoProdutos == "" || descricaoProdutos.length < 5 || descricaoProdutos.length > 45) ||
-                (valorProduto.toInt() < 0)||
-=======
                 (descriçãoProdutos == "" || descriçãoProdutos.length < 5 || descriçãoProdutos.length > 45) ||
                 (valorProduto.toInt() < 0) ||
->>>>>>> 63dbbd3990e8e18de548f40a9843f47cece72474
                 (quantidadeProduto.toInt() < 0))
-
-
     }
 
     private fun inserirProduto() {

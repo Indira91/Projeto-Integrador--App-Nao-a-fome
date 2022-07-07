@@ -1,6 +1,7 @@
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
 
@@ -8,6 +9,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
 
+=======
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+>>>>>>> 63dbbd3990e8e18de548f40a9843f47cece72474
 =======
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -273,9 +280,13 @@
     </ScrollView>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 </androidx.constraintlayout.widget.ConstraintLayout>
 
 
+=======
+</androidx.constraintlayout.widget.ConstraintLayout>
+>>>>>>> 63dbbd3990e8e18de548f40a9843f47cece72474
 =======
 </androidx.constraintlayout.widget.ConstraintLayout>
 >>>>>>> 63dbbd3990e8e18de548f40a9843f47cece72474
